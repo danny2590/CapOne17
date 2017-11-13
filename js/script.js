@@ -1,4 +1,4 @@
-  $.getJSON( "zipcodes.json", function( data ) {
+  $.getJSON( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/listings.json", function( data ) {
   console.log($("#myChart"));
   const myChart = document.getElementById("myChart").getContext("2d");
 
