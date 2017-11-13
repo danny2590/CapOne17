@@ -52,7 +52,7 @@
 
   //Pie Chart
   console.log($("#pieChart"));
-  $.get( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/zicodes.json", function( data ) {
+  $.get( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/zipcodes.json", function( data ) {
   const pieChart = document.getElementById("pieChart").getContext('2d');
 
   //sort through my json data which has created an array of objects and return the listed parameters
