@@ -1,5 +1,5 @@
   $.getJSON( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/listings.json", function( data ) {
-  console.log($("#myChart"));
+  //console.log($("#myChart"));
   const myChart = document.getElementById("myChart").getContext("2d");
 
   //sort through my json data which has created an array of objects and return the listed parameters
@@ -51,7 +51,7 @@
 
 
   //Pie Chart
-  console.log($("#pieChart"));
+  //console.log($("#pieChart"));
   $.getJSON( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/zipcodes.json", function( data ) {
   const pieChart = document.getElementById("pieChart").getContext('2d');
 
