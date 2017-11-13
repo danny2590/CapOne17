@@ -1,4 +1,4 @@
-  $.getJSON( "https://github.com/danny2590/CapOne17/data/zipcodes.json", function( data ) {
+  $.getJSON( "http://cors.io/?u=https://github.com/danny2590/CapOne17/tree/master/data/zipcodes.json", function( data ) {
   console.log($("#myChart"));
   const myChart = document.getElementById("myChart").getContext("2d");
 
