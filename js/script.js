@@ -1,4 +1,4 @@
-  $.getJSON( "http://cors.io/?u=https://github.com/danny2590/CapOne17/tree/master/data/zipcodes.json", function( data ) {
+  $.getJSON( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/listings.json", function( data ) {
   console.log($("#myChart"));
   const myChart = document.getElementById("myChart").getContext("2d");
 
@@ -52,7 +52,7 @@
 
   //Pie Chart
   console.log($("#pieChart"));
-  $.get( "https://github.com/danny2590/CapOne17/data/zipcodes.json", function( data ) {
+  $.get( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/zicodes.json", function( data ) {
   const pieChart = document.getElementById("pieChart").getContext('2d');
 
   //sort through my json data which has created an array of objects and return the listed parameters
@@ -97,7 +97,7 @@
 // Last Chart - Bedrooms vs. Reviews -- For this chart I am grouping together two sets of data to form a grouped bar-chart
 // as well as adding an overlayed line chart to show progression_______________________
 console.log($("#reviewChart"));
-$.get( "https://github.com/danny2590/CapOne17/data/listings.json", function( data ) {
+$.get( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/listings.json", function( data ) {
 const reviewChart = document.getElementById("reviewChart").getContext("2d");
 
                                                     //sort through my json data which has created an array of objects and returned the listed items
