@@ -19,6 +19,8 @@ My favorite part of this entire project was learning and using the chartJS libra
 
 ​I implemented custom views into the charts with legends so users can see different options in the data.
 
+NOTE: Review scores were used to gauge positive reviews and all nulls and zeroes were removed from the data to avoid outliers.
+
 
 ## Tech/framework used
 
