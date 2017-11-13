@@ -101,7 +101,8 @@ $.get( "https://github.com/danny2590/CapOne17/data/listings.json", function( dat
 const reviewChart = document.getElementById("reviewChart").getContext("2d");
 
                                                     //sort through my json data which has created an array of objects and returned the listed items
-  const bedrooms = data.map(function(location) {      //created a function that sorts through the array and groups the # of bedrooms
+ //created a function that sorts through the array and groups the # of bedrooms
+  const bedrooms = data.map(function(location) {
     return location.bedrooms;
   });
   const reviewScore = data.map(function(location) {
