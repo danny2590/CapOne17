@@ -35,20 +35,20 @@ Built with
 - Random color javascript library to add additional visual element to the charts (refresh to see new colors!)
 
 
-##Challenges​:
+## Challenges​:
 
 Learning javascript was definitely a challenge for me as I had not explored web development yet beyond static HTML and CSS sites. I was able to get ahead of this obstacle by reading documentation online, resource guides, and asking for help from friends when I needed to understand a concept I wasn't familiar.
 
 I was deploying to GitHub Pages for the first time and learned that it is not as easy as just enabling Pages. My local environment was working fine but my visualizations were not working on GitHub. I used the developer console to debug the problem and found that direct linking to the raw JSON files was the best option to feed the JSON into my scripts instead of a relative path as I had in my local environment. I was able to get rid of the 404 errors in the console and my code worked in both my local and remote environment!
 
 
-##Future Updates:
+## Future Updates:
 
 I plan on incorporating Python's textblob library to create a sentiment scale of neighborhood popularity based on reviews via the Twitter API in combination with resources pulled from Zillow's getcomps API once I learn how to parse through XML data. I am really excited about this next step as I would be learning Python and adding a cool new feature to my project!
 
 I am also interested in giving potential sellers the opportunity to visualize their earning potentials using geolocation provided.
 
-##Conclusion​:
+## Conclusion​:
 
 I am so grateful for this opportunity because it exposed me to data analysis as a possible career path and also taught me how much I could learn on my own in a short period of time.
 
