@@ -1,4 +1,4 @@
-  $.getJSON( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/listings.json", function( data ) {
+  $.getJSON( "https://raw.githubusercontent.com/danny2590/CapOne17/master/data/zipcodes.json", function( data ) {
   //console.log($("#myChart"));
   const myChart = document.getElementById("myChart").getContext("2d");
 
@@ -14,14 +14,14 @@
   });
 
   const chartOptions = {
-    type:'bar', // bar, horizontalBar, pie, line, doughnut, radr, polarArea charts are available
+    type:'bar',
     data:{
       labels: neighborhoods,
       datasets:[
         {
        label: 'Price Per Night',
         data: nightlyCost,
-        backgroundColor: randomColor(),   //this randomColor() method generates a unique random color for my bar-chart
+        backgroundColor: randomColor(),
       },
        {
         type: 'line',
