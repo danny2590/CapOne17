@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Comptabile" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Capital One - Summit Challenge 2017</title>
+
+  <!--Chart JS CDN for Data Visuals-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+
+  <!-- Random Color Generator for Chart Visualizations-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/one-page-wonder.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/images/nerdAvatar.png">Capital One Summit 2017</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+      <!-- In keeping the page static I decided to remove the navigation bar. Keeping code here to continue
+      working on project at later time.
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      -->
+
+  <header class="masthead">
+    <div class="overlay">
+      <div class="container">
+        <h1 class="display-1 text-white">Make Some Extra Cash</h1>
+        <h2 class="display-4 text-white">Rent Your Space With</h2>
+
+        <!-- Flashing Scroll-Down Animation -->
+        <!-- Intend to make this CSS animation clickable once i'm more familiar with JavaScript -->
+        <a href="https://www.airbnb.com"><img src="https://cdn.worldvectorlogo.com/logos/airbnb.svg" alt="Airbnb logo"  width=20% /></a>
+
+        <div class="scrolldown" id="scrolldown">
+          <p>scroll</p>
+          <div class="mouse">
+            <span><p>↓</p></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+<!-- Page Data Section -->
+  <section>
+    <div class="container" id="#section2">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-2">
+          <div class="p-5">
+            <a href=#></a>
+
+            <!-- Bar && Line Graph -->
+            <canvas id="myChart" width="400" height="400"></canvas>
+
+          </div>
+        </div>
+        <div class="col-md-6 order-1">
+          <div class="p-5">
+            <h2 class="display-4">Average Nightly Price</h2>
+            <p>Not sure what you should charge? Here are the average nightly rental prices per neighborhood in San Francisco.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="p-5">
+
+            <!-- Pie Chart -->
+            <canvas id="pieChart" width="400" height="400"></canvaas>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-5">
+              <h2 class="display-4">Wondering where to list? </h2>
+              <p>These 10 neighborhoods in San Francisco have been in steady demand since 2008!
+              If you live in one of these neighborhoods, theres no need to worry about earning a consistent income!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+
+              <!-- Second Bar && Line Graph (Final Page Graph) -->
+            <canvas id ="reviewChart" width="400" height="400"></canvas>
+
+          </div>
+        </div>
+        <div class="col-md-6 order-1">
+          <div class="p-5">
+            <h2 class="display-4">Less is more!</h2>
+            <p>Having an large number of rooms does not automatically equate to customer satisfication; in fact, the data shows that homes that rent only a private room are more likely to receive a positive review than those that rent out the entire home</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+
+      <!--  Placeholder for Zillow API - House Comps
+      <div class="container">
+        <input>
+        </input>
+      </div>
+    -->
+
+      <p class="m-0 text-center text-white">Copyright &copy; Daniel Encarnacion </br> Capital One Summit Challenge 2017</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Airbnb Chart Visualizations -->
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
