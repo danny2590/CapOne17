@@ -4,9 +4,9 @@ A visual representation of some Airbnb trend data from 2007 - 2016. The data sho
 
 ## The Task: To solve this challenge, build a web application that provides the following functionality:
 
-Visualize the data: Graph some (any 3) interesting metrics, maps, or trends from the dataset.
-Price estimation: Given the geo-location (latitude and longitude) of a new property, estimate the weekly average income the homeowner can make with Airbnb.
-Bookings optimization: Given the geo-location (latitude and longitude) of a property, what is the ideal price per night that will yield maximum bookings or revenue?
+- Visualize the data: Graph some (any 3) interesting metrics, maps, or trends from the dataset.
+- Price estimation: Given the geo-location (latitude and longitude) of a new property, estimate the weekly average income the homeowner can make with Airbnb.
+- Bookings optimization: Given the geo-location (latitude and longitude) of a property, what is the ideal price per night that will yield maximum bookings or revenue?
 
 ## Motivation
 Keen to learn more about software engineering and pick up new skills I jumped in head first picking up a lot of new skills and working with totally unfamiliar languages and libraries like JavaScript, ChartJS, and JQuery.
