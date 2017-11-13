@@ -35,8 +35,7 @@ Built with
 - Random color javascript library to add additional visual element to the charts (refresh to see new colors!)
 
 
-
-​##Challenges​:
+##Challenges​:
 
 Learning javascript was definitely a challenge for me as I had not explored web development yet beyond static HTML and CSS sites. I was able to get ahead of this obstacle by reading documentation online, resource guides, and asking for help from friends when I needed to understand a concept I wasn't familiar.
 
@@ -49,8 +48,7 @@ I plan on incorporating Python's textblob library to create a sentiment scale of
 
 I am also interested in giving potential sellers the opportunity to visualize their earning potentials using geolocation provided.
 
-
-​##Conclusion​:
+##Conclusion​:
 
 I am so grateful for this opportunity because it exposed me to data analysis as a possible career path and also taught me how much I could learn on my own in a short period of time.
 
