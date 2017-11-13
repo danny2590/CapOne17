@@ -32,16 +32,13 @@
       }
     ]
   },
-    options: {    //The code immediately preceeding options creates adds stylistic elements to my charts
+  //The code immediately preceeding options creates adds stylistic elements to my charts
+    options: {
       legend: { display: true},
       title: {
         display: true,
         text: 'Average Price Per Night'
       }
-    },  animation: {
-            onProgress: function(animation) {
-                progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
-            }
     }
   };
 
