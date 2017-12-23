@@ -163,3 +163,9 @@ const reviewChart = document.getElementById("reviewChart").getContext("2d");
   };
   return new Chart(reviewChart, plotOptions);
   });
+
+  $(document).ready(function() {
+      $(".mouse").click(function(event){
+          $('html, body').animate({scrollTop: '+=550px'}, 1200);
+      });
+  });
