@@ -205,7 +205,10 @@
   // iterating through the elements in the town array in testFile.JSON and comparing it to
   // the user entered zipCode
 
-  function getArray(zipcode) {
+  // Original Method Mapping through JSON file failed because the method went through each element
+  // fileSize was too big and Data was too interconnected
+  
+ /* function getArray(zipcode) {
       var x = $.getJSON("../data/zipcodes.json", function(data) {
           //const zip = document.write("<td style='width: 100px; color: red; text-align: right;'>Col Head 2</td>");
           const zip = data.map(function(location) {
@@ -225,10 +228,10 @@
               //return popSize;
           });
       });
-  };
+  };*/
 
   function filterJSON(lat, long) {
-      var check = $.getJSON("../data/locate.json", function(data) {
+      var check = $.getJSON("https://raw.githubusercontent.com/danny2590/CapOne17/master/data/locate.json", function(data) {
           var hoodName = document.getElementById("newZip");
           var hoodPrice = document.getElementById("newNightly");
           var hoodWeeklyPrice = document.getElementById("newPrice");
