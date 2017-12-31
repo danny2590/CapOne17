@@ -7662,19 +7662,15 @@ a.text-dark:focus, a.text-dark:hover {
     flex-grow: 1
 }
 
-.priceContainer{
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
-    padding-left: 7%;
 
-}
     #zipForm{
-    display:inline-flex;
+    display: inline-flex;
 }
-    #priceTable{
-        padding-right: 7%;
-}
+
+/*#zipcode{
+display:inline-flex;
+}*/
+
 
 
 textarea{

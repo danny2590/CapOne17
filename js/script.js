@@ -186,15 +186,19 @@
   //should return the neighborhood
 
   $("#zipBtn").click(function() {
-      var zip = document.getElementById("zipEntered").value;
-      var test = 12345;
+      var lat = document.getElementById("lat").value;
+      var long = document.getElementById("long").value;
+
+
+      //var test = 12345;
       /*if (zip <= test) {
           console.log("Less than " + test);
           //document.write("<td style='width: 100px; color: red; text-align: right;'>" + zip + "</td>");
       } else {
           console.log("Greater than Zip " + zip)
       }*/
-      getArray(zip);
+      //getArray(zip);
+      filterJSON(lat, long);
   });
   //create a new table with the zipcode information
 
@@ -202,23 +206,45 @@
   // the user entered zipCode
 
   function getArray(zipcode) {
-      var x = $.getJSON("../data/locate.json", function(data) {
+      var x = $.getJSON("../data/zipcodes.json", function(data) {
           //const zip = document.write("<td style='width: 100px; color: red; text-align: right;'>Col Head 2</td>");
           const zip = data.map(function(location) {
-              var area = location.sfhood;
+              var area = location.neighborhoods;
               var match = false;
               var popSize = document.getElementById("newNightly");
 
-              //console.log(area);
+          // console.log("TEST");
 
               for(var i = 0 in location){           //iterating through the individual objects inside of location array
                   if (zipcode == area){
                      match = true;                 //this boolean will pass through directions
-                     popSize.innerHTML = location.sfzipcode;
+                     popSize.innerHTML = location.avgPrice;
                  }
                   break;
               };
               //return popSize;
           });
+      });
+  };
+
+  function filterJSON(lat, long) {
+      var check = $.getJSON("../data/locate.json", function(data) {
+          var hoodName = document.getElementById("newZip");
+          var hoodPrice = document.getElementById("newNightly");
+          var hoodWeeklyPrice = document.getElementById("newPrice");
+          var hostPricing;      //instance variable for location pricing data
+          var weeklyPrice;
+          const hostData = data.filter(function (el){               //filtering through the JSON for specific targets
+              return (el.latitude == lat) && (el.longitude == long);
+          }).map(function (el){
+              //return el.price;
+              hostPricing = el.price;
+              return el.neighbourhood_cleansed;
+          })
+            weeklyPrice = hostPricing * 7;
+            hoodName.innerHTML = hostData;
+            hoodPrice.innerHTML = hostPricing;
+            hoodWeeklyPrice.innerHTML = weeklyPrice;
+
       });
   };

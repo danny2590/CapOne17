@@ -21,7 +21,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
-
+    <link rel="icon" href="https://tbcdn.talentbrew.com/company/1786/v2_0/img/software-icon.png">
 </head>
 
 <body>
@@ -153,35 +153,49 @@
     </section>
 
 
-
     <!-- Enter Your Zipcode -->
-    <div class="priceContainer">
-        <div id="zipForm">
-            <div id="form">
-                <form id="zipcode">
-                    <textarea id="zipEntered" rows="1" cols="20" placeholder="Enter a Zipcode" maxlength="10" required></textarea>
-                </form>
-            </div>
-            <div id="Submit">
-                <button id="zipBtn" type="button">Send</button>
-            </div>
-        </div>
-        <div id="priceTable">
-            <table>
-                <tr>
-                    <th> Zip Code </th>
-                    <th> Price Per Night </th>
-                    <th> Price Per Week </th>
-                </tr>
-                <tr>
-                    <td id="newZip"> </td>
-                    <td id="newNightly"></td>
-                    <td id="newWeekly">$1785 </td>
-                </tr>
-            </table>
-        </div>
 
-    </div>
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+
+
+              <table id ="dataTable">
+                  <tr>
+                      <th id="newZip">Neighborhood</td>
+                      </br>
+                      <th id="newNightly">Price Per Night</td>
+                      </br>
+                      <th id="newPrice">Weekly Price</td>
+                  </tr>
+              </table>
+
+                    </div>
+                </div>
+                <div class="col-md-6 order-2">
+                    <div class="p-5">
+                        <h2 class="display-4">Try for yourself</h2>
+                        <p>Enter a geolocation address in San Francisco and see how much you can earn!</p <div>
+                        <div id="zipForm">
+                        <div>
+                            <form id="zipcode">
+                                <textarea id="lat" rows="1" cols="20" placeholder="Enter SF Latitude" maxlength="25" required></textarea>
+                                <textarea id="long" rows="1" cols="20" placeholder="Enter SF Longitude" maxlength="25" required></textarea>
+                            </form>
+                        </div>
+                        <div id="Submit">
+                            <button id="zipBtn" type="button">Send</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
