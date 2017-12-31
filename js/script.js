@@ -207,7 +207,7 @@
 
   // Original Method Mapping through JSON file failed because the method went through each element
   // fileSize was too big and Data was too interconnected
-  
+
  /* function getArray(zipcode) {
       var x = $.getJSON("../data/zipcodes.json", function(data) {
           //const zip = document.write("<td style='width: 100px; color: red; text-align: right;'>Col Head 2</td>");

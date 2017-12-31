@@ -7663,7 +7663,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 
-    #zipForm{
+    #zipForm {
     display: inline-flex;
 }
 
@@ -7671,7 +7671,9 @@ a.text-dark:focus, a.text-dark:hover {
 display:inline-flex;
 }*/
 
-
+    #dataTable {
+        border: 1px solid black;
+}
 
 textarea{
     resize: none;
