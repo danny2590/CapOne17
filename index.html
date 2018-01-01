@@ -11,11 +11,7 @@
 
     <title>Capital One - Summit Challenge 2017</title>
 
-    <!--Chart JS CDN for Data Visuals-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
 
-    <!-- Random Color Generator for Chart Visualizations-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -186,8 +182,8 @@
                         <div id="zipForm">
                         <div>
                             <form id="zipcode">
-                                <textarea id="lat" rows="1" cols="20" placeholder="Enter SF Latitude" maxlength="25" required></textarea>
-                                <textarea id="long" rows="1" cols="20" placeholder="Enter SF Longitude" maxlength="25" required></textarea>
+                                <textarea id="lat" rows="1" cols="20" placeholder="Enter SF Latitude" maxlength="9" required></textarea>
+                                <textarea id="long" rows="1" cols="20" placeholder="Enter SF Longitude" maxlength="9" required></textarea>
                             </form>
                         </div>
                         <div id="Submit">
@@ -205,7 +201,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-
+            
             <!--  Placeholder for Zillow API - House Comps
       <div class="container">
         <input>
@@ -224,7 +220,11 @@
 
     <!-- Airbnb Chart Visualizations -->
     <script src="js/script.js"></script>
+    <!--Chart JS CDN for Data Visuals-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
 
+    <!-- Random Color Generator for Chart Visualizations-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
 
 </body>
 
