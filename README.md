@@ -1,5 +1,7 @@
 # Capital One - Summit Challenge 2017
 
+<iframe src="https://giphy.com/embed/xULW8ruqg2anD7XuNO" width="480" height="357" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/xULW8ruqg2anD7XuNO">via GIPHY</a></p>
+
 A visual representation of some Airbnb trend data from 2007 - 2016. The data showed trends in pricing, neighborhood popularity as well as hosts tendencies.
 
 ## Motivation
