@@ -30,6 +30,7 @@ Built with
 - Javascript and jQuery for mapping functions and returning results from JSON data​​
 - Random color javascript library to add additional visual element to the charts (refresh to see new colors!)
 
+![](c1SummitChallenge.gif)
 
 ## Challenges​:
 
